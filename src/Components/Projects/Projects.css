@@ -1,8 +1,9 @@
-.Projects{
+.Projects {
     width: 90%;
     margin: auto;
 }
-.Projects_Container{
+
+.Projects_Container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -10,13 +11,14 @@
     width: 100%;
     margin: 80px 0;
 }
-.Projects_Container .project{
+
+.Projects_Container .project {
     position: relative;
     width: 300px;
     border-radius: 10px;
 }
 
-.project .project_image img{
+.project .project_image img {
     width: 100%;
     height: 200px;
     border-radius: 10px;
@@ -25,8 +27,7 @@
     z-index: 1;
 }
 
-/* TODO Add animation of card projects */
-.project .project_content{
+.project .project_content {
     display: grid;
     box-sizing: border-box;
     background-color: aliceblue;
@@ -34,15 +35,19 @@
     height: 200px;
     padding: 10px 20px;
     position: absolute;
-    top: 195px;
+    top: 0px;
+    transition: 0.9s;
 }
 
+.showDetail{
+    top: 195px !important;
+}
 
-.project_content p{
+.project_content p {
     font-size: 0.8em;
 }
 
-.project_content a{
+.project_content a {
     box-sizing: border-box;
     width: 100%;
     padding: 4px;
