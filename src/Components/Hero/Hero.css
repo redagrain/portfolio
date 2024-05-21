@@ -1,0 +1,60 @@
+.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 0 50px;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.Hero .hero_container h4{
+    font-family: "Gabriela", serif;
+    font-size: 1.3em;
+    /* font-style: italic; */
+}
+
+.Hero .hero_container h2{
+    font-size: 1em;
+}
+
+.Hero .hero_container h1{
+    font-size: 5em;
+    font-family: "Oleo Script", system-ui;
+    margin: 0;
+    color: #3e3b8c;
+}
+.Hero .hero_container h1 span{
+    font-family: "Gabriela", serif;
+    margin-right: 8px;
+    font-size: 0.3em;
+}
+.Hero .hero_image img{
+    width: 500px;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    gap: 8px;
+}
+
+.cta a{
+    padding: 10px 15px;
+    background: #3e3b8c;
+    border: 1px solid #3e3b8c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: 0.7s;
+}
+
+.cta .outline{
+    background: transparent;
+    color: #3e3b8c;
+}
+
+.cta a:hover:not(.outline){
+    background: #5552ab;
+}

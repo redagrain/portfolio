@@ -1,0 +1,26 @@
+.Experiences_Container{
+    width: 90%;
+    margin: auto;
+}
+.Experiences_Container .experience{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 70px;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.experience .date span{
+    font-size: 1em;
+}
+.experience .date span i{
+    margin-right: 8px;
+    font-size: 0.8em;
+}
+
+.experience .experience_content h3{
+    margin: 0;
+    font-size: 1em;
+    font-weight: 500;
+}
