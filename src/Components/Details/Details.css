@@ -49,6 +49,7 @@
     object-fit: cover;
 }
 
+/* TODO make this button as component */
 .Details_Container a {
     box-sizing: border-box;
     width: 100%;
