@@ -11,9 +11,7 @@ export default function Details({ showDetail, showDetails, projectData }) {
   function hideDetails(){
     showDetails();
   }
-  console.log(projectData);
 
-  // TODO Unable to read technologies from json
   return (
     <div className="Details" id='Details'>
       <div className="Details_Container">
@@ -26,15 +24,13 @@ export default function Details({ showDetail, showDetails, projectData }) {
             <div className="technologies">
               <h1>Technologies</h1>
               <ul>
-                {projectData[0].technologies.map((projet) => (<li>{projet.technologies}</li>))}
+                {projectData[0].technologies.map((technologie) => (<li key={technologie}>{technologie}</li>))}
               </ul>
             </div>
             <div className="tools">
               <h1>Tools</h1>
               <ul>
-                <li>Git&GitHub</li>
-                <li>PowerAMC</li>
-                <li>Visual Studio</li>
+                {projectData[0].tools.map((tool) => (<li key={tool}>{tool}</li>))}
               </ul>
             </div>
           </div>

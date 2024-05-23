@@ -49,6 +49,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 4px;
+    cursor: pointer;
     font-size: 0.8em;
     font-weight: 400;
     max-height: 35px;

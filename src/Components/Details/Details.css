@@ -50,9 +50,17 @@
 }
 .Details_Content{
     display: grid;
-    align-content: space-around;
+    align-content: space-evenly;    
     width: 35%;
     margin: 10px 20px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    max-height: 90%;
+}
+.Details_Content .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 /* TODO make this button as component */
 .Details_Content a {
@@ -68,4 +76,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .Details_Container {
+        display: grid;
+    }
+    .Details_Container .Details_Image{
+        width: 100%;
+        height: 80%;
+    }
+    .Details_Content{
+        width: 90%;
+        margin: auto;
+    }
 }
