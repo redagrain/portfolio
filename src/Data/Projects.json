@@ -1,0 +1,52 @@
+{
+    "projects": [
+      {
+        "id": 1, 
+        "title": "SoliLMS",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa deserunt repellat quia sunt.",
+        "image": "https://d1ub0o53i85pdh.cloudfront.net/uploads/2022/04/1200x700_GTM.webp",
+        "technologies": [
+          "Laravel",
+          "ReactJS"
+        ],
+        "tools": [
+          "Git&GitHub",
+          "PowerAMC"
+        ],
+        "websiteLink": "https://project1.com"
+      },
+      {
+        "id": 2, 
+        "title": "GAVE&GOT",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa deserunt repellat quia sunt.",
+        "image": "https://assets.justinmind.com/wp-content/uploads/2018/11/header-design-landing-page.png",
+        "technologies": [
+          "Laravel",
+          "ReactJS"
+        ],
+        "tools": [
+          "Git&GitHub",
+          "PowerAMC"
+        ],
+        "websiteLink": "https://project1.com"
+      },
+      {
+        "id": 3, 
+        "title": "Currency Exchanger",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa deserunt repellat quia sunt.",
+        "image": "https://www.petermocanu.com/wp-content/uploads/2021/09/DPU-template-landing-page-UI-concept.jpg",
+        "technologies": [
+          "Laravel",
+          "ReactJS",
+          "RestAPI"
+        ],
+        "tools": [
+          "Git&GitHub",
+          "Figma",
+          "PowerAMC"
+        ],
+        "websiteLink": "https://project1.com"
+      }
+    ]
+  }
+  
