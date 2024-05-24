@@ -1,0 +1,15 @@
+.button a {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #fff;
+    background-color: #5550cf;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

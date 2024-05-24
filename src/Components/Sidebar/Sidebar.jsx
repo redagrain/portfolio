@@ -9,9 +9,9 @@ function Sidebar({toggleSidebar, showSidebar}) {
         </div>
         <ul>
           <li onClick={() => toggleSidebar()} className='active'><a href="#Home">Home</a></li>
-          <li><a onClick={() => toggleSidebar()} href="#Educations">Educations</a></li>
-          <li><a onClick={() => toggleSidebar()} href="#Experiences">Experiences</a></li>
-          <li><a onClick={() => toggleSidebar()} href="#Projects">Projects</a></li>
+          <li onClick={() => toggleSidebar()}><a href="#Educations">Educations</a></li>
+          <li onClick={() => toggleSidebar()}><a href="#Experiences">Experiences</a></li>
+          <li onClick={() => toggleSidebar()}><a href="#Projects">Projects</a></li>
         </ul>
       </div>
     </div>

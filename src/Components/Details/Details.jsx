@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Details.css';
+import Button from '../../MiniComponents/Button/button';
 
 export default function Details({ showDetail, showDetails, projectData }) {
   // const [showDetail, SetshowDetail] = useState(false);
@@ -34,10 +35,9 @@ export default function Details({ showDetail, showDetails, projectData }) {
               </ul>
             </div>
           </div>
-          <a href="">Visit Website</a>
+          <Button ButtonText={'Visit Website'} ButtonLink={'#'}/>
         </div>
       </div>
     </div>
   );
 }
-
