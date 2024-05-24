@@ -5,7 +5,10 @@
     background-color: #fff;
     padding: 0 50px;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 190px;
+}
+.Hero .hero_container{
+text-align: center;
 }
 
 .Hero .hero_container h4{
@@ -37,6 +40,7 @@
 .cta{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 30px 0;
     gap: 8px;
 }
@@ -58,4 +62,15 @@
 
 .cta a:hover:not(.outline){
     background: #5552ab;
+}
+@media screen and (max-width: 900px) {
+
+    .Hero{
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+
+    .Hero .hero_image img{
+        display: none;
+    }
 }
