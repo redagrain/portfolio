@@ -1,9 +1,11 @@
+import Title from '../../MiniComponents/Title/title';
 import './Educations.css';
 
 function Educations() {
   return (
     <div className="Educations" id='Educations'>
-      <div className='title'><h1>Educations</h1></div>
+      <Title title={'Education'}/>
+      <div className='title'><h1></h1></div>
       <div className="Educations_Container">
         <div className="education">
           <div className="date">
