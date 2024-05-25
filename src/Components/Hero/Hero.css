@@ -66,7 +66,7 @@ text-align: center;
 @media screen and (max-width: 900px) {
 
     .Hero{
-        /* margin-top: 15px; */
+        justify-content: center;
     }
 
     .Hero .hero_image img{

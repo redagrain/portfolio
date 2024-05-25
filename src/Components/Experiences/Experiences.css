@@ -24,3 +24,14 @@
     font-size: 1em;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 900px) {
+    .experience .date{
+        width: 30%;
+    }
+    .Experiences_Container .experience{
+        gap: 10px;
+    }
+
+}

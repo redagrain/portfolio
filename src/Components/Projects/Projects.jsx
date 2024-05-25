@@ -25,7 +25,7 @@ export default function Projects() {
           <div className='project_content'>
             <h1>{project.title}</h1>
             <p>{project.description}</p>
-            <a onClick={() => showDetails([{"image": project.image, "technologies": project.technologies, "tools": project.tools, "websiteLink": project.website }])}>Details</a>
+            <a onClick={() => showDetails([{"image": project.image, "technologies": project.technologies, "tools": project.tools, "websitelink": project.websitelink }])}>Details</a>
           </div>
         </div>)) }
       </div>

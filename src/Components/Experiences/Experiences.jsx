@@ -7,7 +7,7 @@ function Experiences() {
       <div className="Experiences_Container">
         <div className="experience">
           <div className="date">
-            <span><i class="fa-regular fa-calendar"></i> JUNE 2023 - JULY 2023</span>
+            <span> JUNE 2023 - JULY 2023</span>
           </div>
           <div className="experience_content">
             <h3>IO Academy</h3>

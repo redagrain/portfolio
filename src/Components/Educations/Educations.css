@@ -25,3 +25,13 @@
     font-size: 1em;
     font-weight: 500;
 }
+
+@media screen and (max-width: 900px) {
+    .education .date{
+        width: 30%;
+    }
+    .Educations_Container .education{
+        gap: 10px;
+    }
+
+}
