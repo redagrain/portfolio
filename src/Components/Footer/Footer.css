@@ -1,0 +1,18 @@
+.Footer{
+    width: 100%;
+    background-color: #3e3b8c;
+    margin-top: 50px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.footerContainer p{
+    font-size: 0.8em;
+    color: #fff;
+    font-family: "Oleo Script", system-ui;
+}

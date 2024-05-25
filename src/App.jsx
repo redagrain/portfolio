@@ -6,6 +6,8 @@ import Educations from './Components/Educations/Educations';
 import Experiences from './Components/Experiences/Experiences';
 import Projects from './Components/Projects/Projects';
 import Sidebar from './Components/Sidebar/Sidebar';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [showSidebar, SetshowSidebar] = useState(false);
@@ -21,6 +23,8 @@ function App() {
       <Educations/>
       <Experiences/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
