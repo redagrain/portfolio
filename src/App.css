@@ -6,3 +6,24 @@
     padding: 0;
 }
 
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 2px;
+    transition: 0.7s;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3e3b8c54;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5550cf;
+    width: 4px;
+    height: 8px;
+}

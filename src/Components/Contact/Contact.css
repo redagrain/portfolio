@@ -17,7 +17,6 @@
     color: #474747;
     font-size: 0.9em;
     margin: auto;
-    width: 80%;
 }
 .contactContainer .contactContent h1{
     margin: 10px;
@@ -25,8 +24,16 @@
     font-size: 1em;
     color: #3e3b8c;
 }
-
-.contactContainer .icons ul{
+.contact_options .address i{
+    color: #474747;
+    font-size: 0.9em;
+}
+.contact_options .address h3{
+    color: #474747;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+.contactContainer .contact_options .icons ul{
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -34,11 +41,11 @@
     list-style: none;
 }
 
-.contactContainer .icons ul li a{
+.contactContainer .contact_options .icons ul li a{
     color: #474747;
     transition: 0.5s;
 }
 
-.contactContainer .icons ul li a:hover{
+.contactContainer .contact_options .icons ul li a:hover{
     color: #3e3b8c;
 }

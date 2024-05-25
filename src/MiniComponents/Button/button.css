@@ -6,10 +6,15 @@
     font-weight: 400;
     color: #fff;
     background-color: #5550cf;
-    border-radius: 10px;
+    border-radius: 999px;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 0.7s;
+}
+
+.button a:hover{
+    background-color: #4641e0;
 }

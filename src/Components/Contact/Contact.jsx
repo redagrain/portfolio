@@ -12,12 +12,18 @@ export default function Contact() {
           <p>I'm always looking for new and exciting projects. Feel free to contact me to discuss new opportunities or collaborations.</p>
           <h1>contact@redagrain.website</h1>
         </div>
-        <div className="icons">
-          <ul>
-            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
-          </ul>
+        <div className="contact_options">
+          <div className="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Tangier, Morocco</h3>
+          </div>
+          <div className="icons">
+            <ul>
+              <li><a target="_blank" href="https://www.linkedin.com/in/redagrain"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a target="_blank" href="https://www.github.com/grain03"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="mailto:contact@redagrain.website"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

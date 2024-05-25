@@ -1,11 +1,12 @@
 .Hero{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     background-color: #fff;
     padding: 0 50px;
-    height: 100vh;
-    margin-top: 10px;
+    /* height: 100vh; */
+    margin-top: 100px;
 }
 .Hero .hero_container{
 text-align: center;
@@ -14,7 +15,6 @@ text-align: center;
 .Hero .hero_container h4{
     font-family: "Gabriela", serif;
     font-size: 1.3em;
-    /* font-style: italic; */
 }
 
 .Hero .hero_container h2{
@@ -70,6 +70,6 @@ text-align: center;
     }
 
     .Hero .hero_image img{
-        display: none;
+        /* display: none; */
     }
 }
