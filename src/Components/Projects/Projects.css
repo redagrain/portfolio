@@ -44,6 +44,7 @@
     font-size: 0.8em;
     height: 100px;
     overflow: hidden;
+    line-height: 20px;
 }
 
 .project_content a {

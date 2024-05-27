@@ -3,27 +3,10 @@
       {
         "id": 1, 
         "title": "SoliLMS",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa deserunt repellat quia sunt.",
-        "image": "gaveandgot.png",
+        "description": "SoliLMS est un système de gestion de l'apprentissage pour notre centre, et ma tâche était de créer un système de gestion RH.",
+        "image": "solilms.png",
+        "websitelink": false,
         "technologies": [
-          "Laravel",
-          "ReactJS"
-        ],
-        "tools": [
-          "Git&GitHub",
-          "PowerAMC"
-        ],
-        "websitelink": "https://project1.com"
-      },
-      {
-        "id": 2, 
-        "title": "GAVE&GOT",
-        "description": "GAVE&GOT is a website directed to Arabs residing in the Netherlands in order to facilitate the process of buying and selling items among themselves, as well as publishing publications to search for housing for rent or job opportunities.",
-        "image": "gaveandgot.png",
-        "websitelink": "https://www.gaveandgot.com",
-        "technologies": [
-          "Laravel",
-          "Laravel",
           "Laravel",
           "ReactJS"
         ],
@@ -33,11 +16,29 @@
         ]
       },
       {
+        "id": 2, 
+        "title": "GAVE&GOT",
+        "description": "GAVE&GOT is a website directed to Arabs residing in the Netherlands in order to facilitate the process of buying and selling items among themselves, as well as publishing publications to search for housing for rent or job opportunities.",
+        "image": "gaveandgot.png",
+        "websitelink": "https://www.gaveandgot.com",
+        "technologies": [
+          "PHP",
+          "jQuery"
+        ],
+        "tools": [
+          "Git & GitHub",
+          "Google Search Console",
+          "Google Analytics",
+          "cPanel",
+          "Figma"
+        ]
+      },
+      {
         "id": 3, 
         "title": "Currency Exchanger",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa deserunt repellat quia sunt.",
+        "description": "Currency Exchanger is small project that exchange currencies depending on API",
         "image": "gaveandgot.png",
-        "websitelink": "https://project1.com",
+        "websitelink": false,
         "technologies": [
           "Laravel",
           "ReactJS",
@@ -45,8 +46,7 @@
         ],
         "tools": [
           "Git&GitHub",
-          "Figma",
-          "PowerAMC"
+          "Visual Studio"
         ]
       }
     ]

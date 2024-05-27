@@ -63,6 +63,8 @@
 .Details_Content .content p{
     font-size: 0.8em;
     color: #777777;
+    margin: 8px 0px 25px 0;
+    line-height: 20px;
 }
 .Details_Content .skills{
     display: grid;

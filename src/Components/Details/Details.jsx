@@ -39,7 +39,7 @@ export default function Details({ showDetail, showDetails, projectData }) {
               </ul>
             </div>
           </div>
-          <Button ButtonText={'Visit Website'} ButtonLink={projectData[0].websitelink}/>
+          { projectData[0].websitelink && <Button ButtonText={'Visit Website'} ButtonLink={projectData[0].websitelink} />}
         </div>
       </div>
     </div>
