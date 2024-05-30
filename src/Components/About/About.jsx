@@ -16,7 +16,6 @@ export default function About() {
           <p>Hi, I'm Reda Grain, a passionate Full Stack Web Developer with over 5 years of experience in building dynamic and responsive web applications.</p>
           <p>My expertise spans front-end technologies like React, as well as back-end frameworks such as Laravel.</p>
           <p> I thrive in collaborative environments and love turning complex problems into elegant solutions.</p>
-          <p>When I'm not coding, you can find me exploring the latest tech trends or turning new ideas to projects. Let's build something amazing together! </p>
         </div>
       </div>
     </div>

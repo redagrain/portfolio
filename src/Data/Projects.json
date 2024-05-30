@@ -3,7 +3,7 @@
       {
         "id": 1, 
         "title": "SoliLMS",
-        "description": "SoliLMS est un système de gestion de l'apprentissage pour notre centre, et ma tâche était de créer un système de gestion RH.",
+        "description": "SoliLMS is a learning management system for our center, and my task was to create an HR management system.",
         "image": "solilms.png",
         "websitelink": false,
         "technologies": [

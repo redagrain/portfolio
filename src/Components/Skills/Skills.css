@@ -12,7 +12,7 @@
 }
 
 .SkillsContainer .skillCard{
-    background-color: #eeeeee;
+    background-color: #e2e1f5;
     max-width: 300px;
     padding: 20px;
     border-radius: 15px;
@@ -35,7 +35,14 @@
     list-style: none;
     border-radius: 999px;
     font-size: 0.8em;
+    transition: 0.9s;
+    cursor: pointer;
 }
+.SkillsContainer .skillCard ul li:hover{
+    color: #e9e8ff;
+    background: #7673d8;
+}
+
 
 @media screen and (max-width: 900px) {
 

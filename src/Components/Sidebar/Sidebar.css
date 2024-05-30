@@ -28,11 +28,11 @@
 .SidebarContainer ul{
     text-align: center;
     margin: auto;
-    height: 88vh;
+    height: 75vh;
     display: grid;
     align-content: center;
-    gap: 25px;
-    /* font-weight: 300; */
+    gap: 15px;
+    font-weight: 300;
     padding: 0;
 }
 .SidebarContainer ul li{
@@ -41,6 +41,8 @@
 .SidebarContainer ul li a{
     text-decoration: none;
     color: #fff;
+    letter-spacing: 1px;
+    font-size: 0.9em;
 }
 
 .ShowSidebar{
