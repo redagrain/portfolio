@@ -9,6 +9,7 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
+import Skills from './Components/Skills/Skills';
 
 function App() {
   const [showSidebar, SetshowSidebar] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <Sidebar showSidebar={showSidebar} toggleSidebar={toggleSidebar}/>
       <Hero/>
       <About/>
+      <Skills/>
       <Educations/>
       <Experiences/>
       <Projects/>
