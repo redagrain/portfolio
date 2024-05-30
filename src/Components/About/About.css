@@ -13,7 +13,7 @@
 
 .About .AboutContainer .AboutImage{
     width: 50%;
-    text-align: center;
+    text-align: right;
 }
 
 .About .AboutContainer .AboutImage img{
@@ -23,7 +23,7 @@
 
 .About .AboutContainer .AboutContent{
     width: 50%;
-    padding: 30px;
+    padding: 0 70px 0 20px;
     box-sizing: border-box;
 }
 
@@ -39,5 +39,11 @@
     .About .AboutContainer .AboutContent{
         text-align: center;
         width: 100%;
+        padding: 0;
+    }
+
+    .About .AboutContainer .AboutImage{
+        width: 50%;
+        text-align: center;
     }
 }
