@@ -8,8 +8,9 @@
     /* height: 100vh; */
     margin-top: 100px;
 }
+
 .Hero .hero_container{
-text-align: center;
+    text-align: center;
 }
 
 .Hero .hero_container h4{

@@ -1,0 +1,43 @@
+.About{
+    width: 100%;
+}
+
+.About .AboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.About .AboutContainer .AboutImage{
+    width: 50%;
+    text-align: center;
+}
+
+.About .AboutContainer .AboutImage img{
+    max-width: 450px;
+    width: 100%;
+}
+
+.About .AboutContainer .AboutContent{
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.About .AboutContainer .AboutContent p{
+    margin: 30px 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .About .AboutContainer{
+        display: grid;
+        justify-items: center;
+    }
+    .About .AboutContainer .AboutContent{
+        text-align: center;
+        width: 100%;
+    }
+}
