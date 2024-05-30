@@ -13,10 +13,10 @@ export default function About() {
           <img src={ About_Image } alt="About Image" />
         </div>
         <div className="AboutContent">
-          <p>Hi, I'm Reda Grain, a passionate <span>Full Stack Web Developer</span> with over 5 years of experience in building dynamic and responsive web applications.</p>
-          <p>My expertise spans front-end technologies like <span>React</span>, as well as back-end frameworks such as <span>Laravel</span>.</p>
-          <p> I thrive in <span>collaborative environments</span> and love turning complex problems into elegant solutions.</p>
-          <p>When I'm not coding, you can find me exploring the <span>latest tech trends</span> or turning new ideas to projects. Let's build something amazing together! </p>
+          <p>Hi, I'm Reda Grain, a passionate Full Stack Web Developer with over 5 years of experience in building dynamic and responsive web applications.</p>
+          <p>My expertise spans front-end technologies like React, as well as back-end frameworks such as Laravel.</p>
+          <p> I thrive in collaborative environments and love turning complex problems into elegant solutions.</p>
+          <p>When I'm not coding, you can find me exploring the latest tech trends or turning new ideas to projects. Let's build something amazing together! </p>
         </div>
       </div>
     </div>

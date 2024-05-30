@@ -29,14 +29,9 @@
 
 .About .AboutContainer .AboutContent p{
     margin: 25px 20px;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #474747;
     font-weight: 400;
-}
-
-.About .AboutContainer .AboutContent p span{
-    color: #000;
-    font-weight: 500;
 }
 
 @media screen and (max-width: 900px) {
