@@ -1,5 +1,6 @@
 .About{
-    width: 100%;
+    width: 90%;
+    margin: 30px auto;
 }
 
 .About .AboutContainer{
@@ -28,7 +29,7 @@
 }
 
 .About .AboutContainer .AboutContent p{
-    margin: 25px 20px;
+    margin: 15px;
     font-size: 0.9em;
     color: #474747;
     font-weight: 400;
@@ -46,7 +47,7 @@
     }
 
     .About .AboutContainer .AboutImage{
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 }
