@@ -12,7 +12,9 @@
         ],
         "tools": [
           "Git&GitHub",
-          "PowerAMC"
+          "VSCode",
+          "PowerAMC",
+          "Mermaid.js"
         ]
       },
       {
@@ -27,6 +29,7 @@
         ],
         "tools": [
           "Git & GitHub",
+          "VSCode",
           "Google Search Console",
           "Google Analytics",
           "cPanel",
@@ -37,7 +40,7 @@
         "id": 3, 
         "title": "Currency Exchanger",
         "description": "Currency Exchanger is small project that exchange currencies depending on API",
-        "image": "gaveandgot.png",
+        "image": "currencyExchanger.png",
         "websitelink": false,
         "technologies": [
           "Laravel",
@@ -46,7 +49,9 @@
         ],
         "tools": [
           "Git&GitHub",
-          "Visual Studio"
+          "VSCode",
+          "CurrencyBeacon API",
+          "Currency API"
         ]
       }
     ]

@@ -35,7 +35,7 @@
     list-style: none;
     border-radius: 999px;
     font-size: 0.8em;
-    transition: 0.9s;
+    transition: 0.5s;
     cursor: pointer;
 }
 .SkillsContainer .skillCard ul li:hover{

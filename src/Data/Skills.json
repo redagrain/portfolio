@@ -1,0 +1,47 @@
+{
+    "skills": [
+      {
+        "id": 1, 
+        "category": "Front-End",
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstarp",
+            "JavaScript",
+            "ReactJS",
+            "jQuery"
+        ]
+      },
+      {
+        "id": 2, 
+        "category": "Back-End",
+        "tools": [
+            "PHP",
+            "Laravel",
+            "SQL"
+        ]
+      },
+      {
+        "id": 3, 
+        "category": "Tools",
+        "tools": [
+            "Git & GitHub",
+            "VSCode",
+            "MySQL",
+            "cPanel",
+            "LucidChart",
+            "PowerAMC",
+            "Mermaid",
+            "PhpMyAdmin",
+            "Figma",
+            "Photoshop",
+            "Google Analytics",
+            "Google Search Console",
+            "Microsoft Office",
+            "Trello",
+            "AnyDesk"
+        ]
+      }
+    
+    ]
+}
