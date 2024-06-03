@@ -27,3 +27,59 @@
     width: 4px;
     height: 8px;
 }
+
+
+/* .intro {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #5552ab;
+    color: white;
+    animation: fadeIn 7s ease-in-out;
+    z-index: 999;
+    top: 0;
+    flex-wrap: wrap;
+} */
+
+.mainCard{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background-color: #5552ab;
+    z-index: 999;
+    top: 0;
+}
+
+.leftCard{
+    animation: leftCardfadeOut 3s  cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.rightCard{
+    animation: rightCardfadeOut 3s  cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+@keyframes leftCardfadeOut {
+    from {
+        opacity: 1;
+        left: 0;
+    }
+    to {
+        opacity: 0;
+        left: -50%;
+    }
+}
+
+@keyframes rightCardfadeOut {
+    from {
+        opacity: 1;
+        right: 0;
+    }
+    to {
+        opacity: 0;
+        right: -50%;
+    }
+}
