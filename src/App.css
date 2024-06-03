@@ -29,29 +29,13 @@
 }
 
 
-/* .intro {
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: #5552ab;
-    color: white;
-    animation: fadeIn 7s ease-in-out;
-    z-index: 999;
-    top: 0;
-    flex-wrap: wrap;
-} */
 
 .mainCard{
     position: fixed;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     background-color: #5552ab;
     z-index: 999;
-    top: 0;
 }
 
 .leftCard{
@@ -65,21 +49,21 @@
 @keyframes leftCardfadeOut {
     from {
         opacity: 1;
-        left: 0;
+        top: 0;
     }
     to {
         opacity: 0;
-        left: -50%;
+        top: -50%;
     }
 }
 
 @keyframes rightCardfadeOut {
     from {
         opacity: 1;
-        right: 0;
+        bottom: 0;
     }
     to {
         opacity: 0;
-        right: -50%;
+        bottom: -50%;
     }
 }
