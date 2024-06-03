@@ -63,6 +63,13 @@
 
 .cta a:hover:not(.outline){
     background: #5552ab;
+    padding: 13px 17px;
+}
+.cta .outline:hover{
+    background: #7c78e3;
+    color: #fff;
+    border: 1px solid #7c78e3;
+    padding: 13px 17px;
 }
 @media screen and (max-width: 900px) {
 

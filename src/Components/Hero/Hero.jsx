@@ -20,7 +20,7 @@ function Hero() {
           <h3>A Full Stack Web Developer</h3>
         </div>
         <div className="cta">
-          <a href="https://drive.usercontent.google.com/download?id=1GyRW9OZ15feXBMgzROX6tInzIFImw7Fm&export=download" target='_blank' className='resume outline'><i class="fa-solid fa-cloud-arrow-down"></i> Resume</a>
+          <a href="https://drive.usercontent.google.com/download?id=1GyRW9OZ15feXBMgzROX6tInzIFImw7Fm&export=download" target='_blank' className='resume outline'><i class="fa-solid fa-download"></i> Resume</a>
           <a href="https://www.linkedin.com/in/redagrain" className='linkedin' target='_blank'><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
         </div>
       </div>
