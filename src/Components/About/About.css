@@ -24,8 +24,9 @@
 
 .About .AboutContainer .AboutContent{
     width: 50%;
-    padding: 0 70px 0 20px;
+    padding: 0px 70px 0 20px;
     box-sizing: border-box;
+    font-size: 1.1em;
 }
 
 .About .AboutContainer .AboutContent p{
@@ -42,8 +43,9 @@
     }
     .About .AboutContainer .AboutContent{
         text-align: center;
-        width: 100%;
+        width: 80%;
         padding: 0;
+        margin: 20px 0;
     }
 
     .About .AboutContainer .AboutImage{

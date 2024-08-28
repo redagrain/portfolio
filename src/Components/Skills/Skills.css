@@ -13,35 +13,41 @@
 
 .SkillsContainer .skillCard{
     background-color: #e2e1f5;
-    max-width: 300px;
+    min-width: 300px;
+    flex: 1;
+    text-align: center;
     padding: 20px;
     border-radius: 15px;
 }
 
 .SkillsContainer .skillCard h1{
-    color: #3e3b8c;
+    color: var(--primaryColor--);
+    font-size: 1.1em;
 }
 
 .SkillsContainer .skillCard ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
     margin: 15px 0px;
 }
 
 .SkillsContainer .skillCard ul li{
-    padding: 8px;
+    padding: 10px;
     background-color: white;
     list-style: none;
-    border-radius: 999px;
-    font-size: 0.8em;
+    border-radius: calc(15px / 2);
+    font-size: 0.9em;
     transition: 0.5s;
+    display: flex;
+    gap: 8px;
     cursor: pointer;
 }
-.SkillsContainer .skillCard ul li:hover{
+/* .SkillsContainer .skillCard ul li:hover{
     color: #e9e8ff;
     background: #7673d8;
-}
+} */
 
 
 @media screen and (max-width: 900px) {

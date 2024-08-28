@@ -15,7 +15,7 @@ export default function Skills() {
           <div className="skillCard">
               <h1>{skill.category}</h1>
               <ul>
-                {skill.tools.map((tool) => (<li>{tool}</li>))}
+                {skill.tools.map((tool) => (<li><i className={`fa-brands ${tool.toolIcon}`}></i>{tool.toolName}</li>))}
               </ul>
           </div>)) 
         }

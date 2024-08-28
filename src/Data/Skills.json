@@ -2,46 +2,67 @@
     "skills": [
       {
         "id": 1, 
-        "category": "Front-End",
+        "category": "Frontend",
         "tools": [
-            "HTML",
-            "CSS",
-            "Bootstarp",
-            "JavaScript",
-            "ReactJS",
-            "jQuery"
+          {"toolIcon": "fa-react", "toolName": "ReactJS"},
+          {"toolIcon": "fa-vuejs", "toolName": "VueJS"},
+            {"toolIcon": "fa-html5", "toolName": "HTML"},
+            {"toolIcon": "fa-css3-alt", "toolName": "CSS"},
+            {"toolIcon": "fa-bootstrap", "toolName": "Bootstarp"},
+            {"toolIcon": "fa-js", "toolName": "JavaScript"}
         ]
       },
       {
         "id": 2, 
-        "category": "Back-End",
+        "category": "Backend",
         "tools": [
-            "PHP",
-            "Laravel",
-            "SQL"
+          {"toolIcon": "fa-laravel", "toolName": "Laravel"},
+          {"toolIcon": "fa-php", "toolName": "PHP"},
+            {"toolIcon": "", "toolName": "MySQL"},
+            {"toolIcon": "", "toolName": "REST API"}
         ]
       },
       {
         "id": 3, 
+        "category": "CMC",
+        "tools": [
+          {"toolIcon": "fa-wordpress", "toolName": "Wordpress"}        
+        ]
+      },
+      {
+        "id": 4, 
+        "category": "Design",
+        "tools": [
+          {"toolIcon": "fa-figma", "toolName": "Figma"},       
+          {"toolIcon": "", "toolName": "Photoshop"},   
+          {"toolIcon": "", "toolName": "Illustrator"}        
+        ]
+      },
+      {
+        "id": 5, 
+        "category": "Modeling",
+        "tools": [
+          {"toolIcon": "", "toolName": "UML"},   
+          {"toolIcon": "", "toolName": "Merise"}
+        ]
+      },
+      {
+        "id": 6, 
+        "category": "Analytics",
+        "tools": [
+          {"toolIcon": "fa-google", "toolName": "Google Analytics"},   
+          {"toolIcon": "fa-google", "toolName": "Google Search Console"}
+        ]
+      },
+      {
+        "id": 7, 
         "category": "Tools",
         "tools": [
-            "Git & GitHub",
-            "VSCode",
-            "MySQL",
-            "cPanel",
-            "LucidChart",
-            "PowerAMC",
-            "Mermaid",
-            "PhpMyAdmin",
-            "Figma",
-            "Photoshop",
-            "Google Analytics",
-            "Google Search Console",
-            "Microsoft Office",
-            "Trello",
-            "AnyDesk"
+          {"toolIcon": "", "toolName": "VScode"},
+          {"toolIcon": "fa-google", "toolName": "Github"},
+          {"toolIcon": "fa-git-alt", "toolName": "Git"},   
+          {"toolIcon": "fa-cpanel", "toolName": "cPanel"}
         ]
       }
-    
     ]
 }

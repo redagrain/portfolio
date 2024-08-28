@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './About.css';
 import Title from '../../MiniComponents/Title/title';
-import About_Image from '../../Assets/img3.png';
+import About_Image from '../../Assets/img5.png';
 
 export default function About() {
 

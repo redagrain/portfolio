@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: #fff;
     padding: 0 50px;
     /* height: 100vh; */
     margin-top: 100px;
@@ -26,12 +25,15 @@
     font-size: 5em;
     font-family: "Oleo Script", system-ui;
     margin: 0;
-    color: #3e3b8c;
+    color: var(--primaryColor--);
 }
 .Hero .hero_container h1 span{
     font-family: "Gabriela", serif;
     margin-right: 8px;
     font-size: 0.3em;
+}
+.Hero .hero_image{
+    text-align: center;
 }
 .Hero .hero_image img{
     max-width: 450px;
@@ -48,8 +50,8 @@
 
 .cta a{
     padding: 10px 15px;
-    background: #3e3b8c;
-    border: 1px solid #3e3b8c;
+    background: var(--primaryColor--);
+    border: 1px solid var(--primaryColor--);
     color: #fff;
     text-decoration: none;
     border-radius: 999px;
@@ -58,18 +60,15 @@
 
 .cta .outline{
     background: transparent;
-    color: #3e3b8c;
+    color: var(--primaryColor--);
 }
 
 .cta a:hover:not(.outline){
-    background: #5552ab;
-    padding: 13px 17px;
+    background: var(--primaryColor--);
 }
 .cta .outline:hover{
-    background: #7c78e3;
-    color: #fff;
-    border: 1px solid #7c78e3;
-    padding: 13px 17px;
+    background: var(--hoverColor--);
+    /* border: 1px solid var(--hoverColor--); */
 }
 @media screen and (max-width: 900px) {
 
@@ -78,6 +77,6 @@
     }
 
     .Hero .hero_image img{
-        /* display: none; */
+        width: 80%;
     }
 }

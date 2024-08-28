@@ -6,7 +6,15 @@
     padding: 0;
 }
 
-
+:root{
+  --primaryColor-- : #5271ff;
+  --secondaryColor-- : #dae3ff;
+  --hoverColor-- : #e9eefb;
+  --textColor--: #494e5f;
+}
+body{
+    background-color: #eaead8;
+}
 ::-webkit-scrollbar {
     width: 3px;
     height: 2px;

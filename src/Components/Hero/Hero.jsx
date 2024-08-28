@@ -1,5 +1,5 @@
 import './Hero.css';
-import Hero_Image from '../../Assets/img1.png';
+import Hero_Image from '../../Assets/img3.png';
 
 function Hero() {
   const currentHour = new Date().getHours();
