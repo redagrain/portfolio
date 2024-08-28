@@ -43,13 +43,13 @@
     }
     .About .AboutContainer .AboutContent{
         text-align: center;
-        width: 80%;
+        width: 90%;
         padding: 0;
         margin: 20px 0;
     }
 
     .About .AboutContainer .AboutImage{
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 }

@@ -12,7 +12,7 @@
 }
 
 .SkillsContainer .skillCard{
-    background-color: #e2e1f5;
+    background-color: var(--secondaryColor--);
     min-width: 300px;
     flex: 1;
     text-align: center;
@@ -21,7 +21,7 @@
 }
 
 .SkillsContainer .skillCard h1{
-    color: var(--primaryColor--);
+    color: var(--textColor--);
     font-size: 1.1em;
 }
 
@@ -36,6 +36,7 @@
 .SkillsContainer .skillCard ul li{
     padding: 10px;
     background-color: white;
+    color: var(--textColor--);
     list-style: none;
     border-radius: calc(15px / 2);
     font-size: 0.9em;

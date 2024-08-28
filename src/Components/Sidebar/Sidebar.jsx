@@ -8,8 +8,8 @@ function Sidebar({toggleSidebar, showSidebar}) {
           <li onClick={() => toggleSidebar()} className='active'><a href="#Home">Home</a></li>
           <li onClick={() => toggleSidebar()}><a href="#About">About</a></li>
           <li onClick={() => toggleSidebar()}><a href="#Skills">Skills</a></li>
-          <li onClick={() => toggleSidebar()}><a href="#Educations">Education</a></li>
-          <li onClick={() => toggleSidebar()}><a href="#Experiences">Experience</a></li>
+          {/* <li onClick={() => toggleSidebar()}><a href="#Educations">Education</a></li> */}
+          <li onClick={() => toggleSidebar()}><a href="#Experiences">Experiences</a></li>
           <li onClick={() => toggleSidebar()}><a href="#Projects">Projects</a></li>
           <li onClick={() => toggleSidebar()}><a href="#Contact">Contact</a></li>
         </ul>

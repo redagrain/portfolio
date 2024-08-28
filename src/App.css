@@ -31,7 +31,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #5550cf;
+    background: var(--primaryColor--);
     width: 4px;
     height: 8px;
 }
