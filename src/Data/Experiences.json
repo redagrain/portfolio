@@ -1,0 +1,22 @@
+{
+    "Experiences": [
+        {
+            "id": 1,
+            "startDate": "06/2023",
+            "endDate": "07/2023",
+            "company": "IO Academy",
+            "companyLink": null,
+            "position": "Wordpress Developer - Intern",
+            "description": "WordPress - Linux - Apache - MySQL - PHP"
+        },
+        {
+            "id": 2,
+            "startDate": "06/2024",
+            "endDate": "07/2024",
+            "company": "BetyDecor",
+            "companyLink": "https://www.betydecor.com/",
+            "position": "Web Developer - Intern",
+            "description": "ReactJS - HTML - CSS"
+        }
+    ]
+}

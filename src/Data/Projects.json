@@ -1,11 +1,48 @@
 {
     "projects": [
       {
+        "id": 2, 
+        "title": "GAVE&GOT",
+        "description": "GAVE&GOT is a personal project I developed to foster integration among Arabs in the Netherlands. It serves as a community platform where individuals can assist one another, exchange information, and find housing, as well as buy and sell products.",
+        "image": "gaveandgot.png",
+        "websitelink": "https://www.gaveandgot.com",
+        "technologies": [
+          "PHP",
+          "jQuery"
+        ],
+        "tools": [
+          "Git & GitHub",
+          "Github Actions",
+          "VSCode",
+          "Google Search Console",
+          "Google Analytics",
+          "Zoho Mail",
+          "cPanel",
+          "Figma"
+        ]
+      },
+      {
+        "id": 3, 
+        "title": "BetyDecor",
+        "description": "Successfully designed and built a landing page for BetyDecor, an interior design agency, showcasing their services and attracting potential clients.",
+        "image": "BetyDecor.jpg",
+        "websitelink": "https://www.betydecor.com/",
+        "technologies": [
+          "ReactJS",
+          "HTML",
+          "CSS"
+        ],
+        "tools": [
+          "Git&GitHub",
+          "VSCode"
+        ]
+      },
+      {
         "id": 1, 
         "title": "SoliLMS",
         "description": "SoliLMS is a learning management system for our center, and my task was to create an HR management system.",
         "image": "solilms.png",
-        "websitelink": false,
+        "websitelink": null,
         "technologies": [
           "Laravel",
           "ReactJS"
@@ -15,43 +52,6 @@
           "VSCode",
           "PowerAMC",
           "Mermaid.js"
-        ]
-      },
-      {
-        "id": 2, 
-        "title": "GAVE&GOT",
-        "description": "GAVE&GOT is a website directed to Arabs residing in the Netherlands in order to facilitate the process of buying and selling items among themselves, as well as publishing publications to search for housing for rent or job opportunities.",
-        "image": "gaveandgot.png",
-        "websitelink": "https://www.gaveandgot.com",
-        "technologies": [
-          "PHP",
-          "jQuery"
-        ],
-        "tools": [
-          "Git & GitHub",
-          "VSCode",
-          "Google Search Console",
-          "Google Analytics",
-          "cPanel",
-          "Figma"
-        ]
-      },
-      {
-        "id": 3, 
-        "title": "Currency Exchanger",
-        "description": "Currency Exchanger is small project that exchange currencies depending on API",
-        "image": "currencyExchanger.png",
-        "websitelink": false,
-        "technologies": [
-          "Laravel",
-          "ReactJS",
-          "RestAPI"
-        ],
-        "tools": [
-          "Git&GitHub",
-          "VSCode",
-          "CurrencyBeacon API",
-          "Currency API"
         ]
       }
     ]

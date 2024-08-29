@@ -13,9 +13,15 @@ export default function Details({ showDetail, showDetails, projectData }) {
     showDetails();
   }
 
+  const handleOutsideClick = (event) => {
+    if (event.target.id === 'Details') {
+      showDetails();
+    }
+  };
+
   return (
-    <div className="Details" id='Details'>
-      <div className="Details_Container">
+    <div className="Details" id='Details' onClick={handleOutsideClick}>
+      <div className="Details_Container" >
         <span onClick={hideDetails}><i className='fa-solid fa-x'></i></span>
         <div className="Details_Image">
           <img src={require(`../../Assets/${projectData[0].image}`)} alt="project image" />
@@ -39,7 +45,7 @@ export default function Details({ showDetail, showDetails, projectData }) {
               </ul>
             </div>
           </div>
-          { projectData[0].websitelink && <Button ButtonText={'Visit Website'} ButtonLink={projectData[0].websitelink} />}
+          { projectData[0].websitelink && <Button buttonIcon={true} ButtonText={'Visit Website'} ButtonLink={projectData[0].websitelink} />}
         </div>
       </div>
     </div>

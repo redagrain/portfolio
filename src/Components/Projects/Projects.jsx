@@ -4,8 +4,7 @@ import Details from '../Details/Details';
 import projectsData from '../../Data/Projects.json';
 import Title from '../../MiniComponents/Title/title';
 import image from '../../Assets/gaveandgot.png';
-export default function Projects() {
-  const [showDetail, SetshowDetail] = useState(false);
+export default function Projects({showDetail,SetshowDetail}) {
   const [projectData, SetprojectData] = useState([]);
 
   function showDetails(data){
@@ -30,7 +29,7 @@ export default function Projects() {
           <div className='project_content'>
             <h1>{project.title}</h1>
             <p>{limitString(project.description, 160)}</p>
-            <a onClick={() => showDetails([{"image": project.image, "description": project.description, "technologies": project.technologies, "tools": project.tools, "websitelink": project.websitelink }])}>Details</a>
+            <a onClick={() => showDetails([{"image": project.image, "description": project.description, "technologies": project.technologies, "tools": project.tools, "websitelink": project.websitelink }])}>More details <i className='fa-solid fa-arrow-up-right-from-square'></i></a>
           </div>
         </div>)) }
       </div>

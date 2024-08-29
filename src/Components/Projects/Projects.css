@@ -14,13 +14,13 @@
 }
 
 .Projects_Container .project {
-    width: 300px;
+    width: 500px;
     border-radius: 10px;
-}
+}   
 
 .project .project_image img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -28,7 +28,7 @@
 .project .project_content {
     display: grid;
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: transparent;
     width: 100%;
     height: 250px;
     padding: 10px 20px;
@@ -48,18 +48,18 @@
 }
 
 .project_content a {
-    box-sizing: border-box;
-    width: 100%;
     padding: 4px;
     cursor: pointer;
-    font-size: 0.8em;
-    font-weight: 400;
-    max-height: 35px;
-    color: #fff;
-    background-color: #5550cf;
-    border-radius: 10px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--primaryColor--);
+}
+.project_content a i{
+    font-size: 0.9em;
+    margin: 7px;
+}
+@media screen and (max-width: 900px) {
+    .project .project_image img {
+        height: 200px;
+    }
 }

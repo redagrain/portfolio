@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="contactContainer">
         <div className="contactContent">
           <p>I'm always looking for new and exciting projects. Feel free to contact me to discuss new opportunities or collaborations.</p>
-          <h1>hello@redagrain.website</h1>
+          <h3><a href="mailto:jobs@redagrain.website">jobs@redagrain.website</a></h3>
         </div>
         <div className="contact_options">
           <div className="address">
@@ -20,8 +20,8 @@ export default function Contact() {
           <div className="icons">
             <ul>
               <li><a target="_blank" href="https://www.linkedin.com/in/redagrain"><i class="fa-brands fa-linkedin"></i></a></li>
-              <li><a target="_blank" href="https://www.github.com/grain03"><i class="fa-brands fa-github"></i></a></li>
-              <li><a href="mailto:hello@redagrain.website"><i class="fa-solid fa-envelope"></i></a></li>
+              <li><a target="_blank" href="https://www.github.com/redagrain"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="mailto:jobs@redagrain.website"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
           </div>
         </div>

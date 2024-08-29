@@ -5,7 +5,8 @@
     font-size: 0.8em;
     font-weight: 400;
     color: #fff;
-    background-color: #5550cf;
+    border: 1px solid transparent;
+    background-color: var(--primaryColor--);
     border-radius: 999px;
     text-decoration: none;
     display: flex;
@@ -16,5 +17,12 @@
 }
 
 .button a:hover{
-    background-color: #4641e0;
+    background-color: var(--hoverColor--);
+    color: var(--primaryColor--);
+    border: 1px solid var(--primaryColor--);
+}
+
+.button a i{
+    font-size: 0.9em;
+    margin: 7px;
 }

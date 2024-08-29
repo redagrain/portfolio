@@ -14,22 +14,24 @@
     margin: 30px;
 }
 .contactContainer .contactContent p{
-    color: #474747;
+    color: var(--textColor--);
     font-size: 0.9em;
     margin: auto;
 }
-.contactContainer .contactContent h1{
-    margin: 10px;
-    padding: 0;
+.contactContainer .contactContent h3{
+    padding: 10px;
+}
+.contactContainer .contactContent h3 a{
     font-size: 1em;
-    color: #3e3b8c;
+    color: var(--primaryColor--);
+    text-decoration: none;
 }
 .contact_options .address i{
-    color: #474747;
+    color: var(--textColor--);
     font-size: 0.9em;
 }
 .contact_options .address h3{
-    color: #474747;
+    color: var(--textColor--);
     font-size: 0.8em;
     margin-bottom: 10px;
 }
@@ -42,10 +44,10 @@
 }
 
 .contactContainer .contact_options .icons ul li a{
-    color: #474747;
+    color: var(--textColor--);
     transition: 0.5s;
 }
 
 .contactContainer .contact_options .icons ul li a:hover{
-    color: #3e3b8c;
+    color: var(--primaryColor--);
 }

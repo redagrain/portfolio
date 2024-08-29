@@ -13,6 +13,7 @@ import Skills from './Components/Skills/Skills';
 
 function App() {
   const [showSidebar, SetshowSidebar] = useState(false);
+  const [showDetail, SetshowDetail] = useState(false);
   const [introAnimation, setIntroAnimation] = useState(true);
 
   // useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
 
   function toggleSidebar(){
     SetshowSidebar(!showSidebar);
+    SetshowDetail(false);
   }
   return (
     <div className="App">
@@ -42,7 +44,7 @@ function App() {
       <Skills/>
       {/* <Educations/> */}
       <Experiences/>
-      <Projects/>
+      <Projects showDetail={showDetail} SetshowDetail={SetshowDetail} />
       <Contact/>
       <Footer/>
     </div>
