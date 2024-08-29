@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b76859b.css",
-    "main.js": "/static/js/main.9d1ed018.js",
+    "main.css": "/static/css/main.4540b3f6.css",
+    "main.js": "/static/js/main.9cb42eea.js",
+    "static/media/gaveandgot.png": "/static/media/gaveandgot.95f03567327ec91eb465.png",
     "static/media/img4.png": "/static/media/img4.dec40954b121bd9d608d.png",
     "static/media/img1.png": "/static/media/img1.cf64a4ae8af3f3a0c088.png",
     "static/media/Frame-4.png": "/static/media/Frame-4.48ac21cd8adadcdf0151.png",
-    "static/media/gaveandgot.png": "/static/media/gaveandgot.a5b97b695eac846ef72c.png",
     "static/media/img5.png": "/static/media/img5.c49fd9b1f924a3a755e8.png",
     "static/media/img3.png": "/static/media/img3.d4178d20ac9e50b9aaf5.png",
     "static/media/img2.png": "/static/media/img2.409b6ed85f0b1b4f38f5.png",
+    "static/media/BetyDecor.jpg": "/static/media/BetyDecor.1ceb02036b1b5587e5a5.jpg",
     "static/media/solilms.png": "/static/media/solilms.1716a00505ca83e787db.png",
     "static/media/currencyExchanger.png": "/static/media/currencyExchanger.00992f770dfce499a85b.png",
     "index.html": "/index.html",
-    "main.4b76859b.css.map": "/static/css/main.4b76859b.css.map",
-    "main.9d1ed018.js.map": "/static/js/main.9d1ed018.js.map"
+    "main.4540b3f6.css.map": "/static/css/main.4540b3f6.css.map",
+    "main.9cb42eea.js.map": "/static/js/main.9cb42eea.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b76859b.css",
-    "static/js/main.9d1ed018.js"
+    "static/css/main.4540b3f6.css",
+    "static/js/main.9cb42eea.js"
   ]
 }
