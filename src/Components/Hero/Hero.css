@@ -4,30 +4,35 @@
     align-items: center;
     justify-content: space-around;
     padding: 0 50px;
-    /* height: 100vh; */
+    height: 100vh;
     margin-top: 100px;
 }
 
 .Hero .hero_container{
+    opacity: 0;
+    transform: translateY(70px);
+}
+
+.Hero .container{
     text-align: center;
 }
 
-.Hero .hero_container h4{
+.Hero .container h4{
     font-family: "Gabriela", serif;
     font-size: 1.3em;
 }
 
-.Hero .hero_container h2{
+.Hero .container h2{
     font-size: 1em;
 }
 
-.Hero .hero_container h1{
+.Hero .container h1{
     font-size: 5em;
     font-family: "Oleo Script", system-ui;
     margin: 0;
     color: var(--primaryColor--);
 }
-.Hero .hero_container h1 span{
+.Hero .container h1 span{
     font-family: "Gabriela", serif;
     margin-right: 8px;
     font-size: 0.3em;

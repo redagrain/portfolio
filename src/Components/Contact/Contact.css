@@ -15,14 +15,14 @@
 }
 .contactContainer .contactContent p{
     color: var(--textColor--);
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin: auto;
 }
 .contactContainer .contactContent h3{
     padding: 10px;
 }
 .contactContainer .contactContent h3 a{
-    font-size: 1em;
+    font-size: 0.9em;
     color: var(--primaryColor--);
     text-decoration: none;
 }

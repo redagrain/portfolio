@@ -1,11 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Projects.css';
 import Details from '../Details/Details';
 import projectsData from '../../Data/Projects.json';
 import Title from '../../MiniComponents/Title/title';
-import image from '../../Assets/gaveandgot.png';
+
 export default function Projects({showDetail,SetshowDetail}) {
   const [projectData, SetprojectData] = useState([]);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [projectsElement, setprojectsElement] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+  }, []);
+  
+  useEffect(() => {
+    const about = document.querySelector('.Projects');
+    if (about) {
+      setprojectsElement(about.getBoundingClientRect().top);
+    }
+  }, []);
+
 
   function showDetails(data){
     SetshowDetail(!showDetail);
@@ -20,10 +39,10 @@ export default function Projects({showDetail,SetshowDetail}) {
     <div className="Projects" id='Projects'>
       {showDetail && <Details showDetail={showDetail} showDetails={showDetails} projectData={projectData}/>}
       <Title title={'Projects'}/>
-      <div className="Projects_Container">
+      <div className={projectsElement < scrollPosition+300 ? "Projects_Container animate" : "Projects_Container"}>
         { projectsData.projects.map((project) => (
         <div className="project" key={project.id}>
-          <div className="project_image">
+          <div className="project_image" onClick={() => showDetails([{"image": project.image, "description": project.description, "technologies": project.technologies, "tools": project.tools, "websitelink": project.websitelink }])}>
             <img src={require(`../../Assets/${project.image}`)} alt="project image" />
           </div>
           <div className='project_content'>

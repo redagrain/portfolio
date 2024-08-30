@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2105232.css",
-    "main.js": "/static/js/main.9cb42eea.js",
+    "main.css": "/static/css/main.b6e58edd.css",
+    "main.js": "/static/js/main.6ebc2dae.js",
     "static/media/gaveandgot.png": "/static/media/gaveandgot.95f03567327ec91eb465.png",
     "static/media/img4.png": "/static/media/img4.dec40954b121bd9d608d.png",
     "static/media/img1.png": "/static/media/img1.cf64a4ae8af3f3a0c088.png",
+    "static/media/img.png": "/static/media/img.62c9ccce149c96ae707f.png",
     "static/media/Frame-4.png": "/static/media/Frame-4.48ac21cd8adadcdf0151.png",
-    "static/media/img5.png": "/static/media/img5.c49fd9b1f924a3a755e8.png",
+    "static/media/img5.png": "/static/media/img5.fe392c7cb9bea79ec25d.png",
     "static/media/img3.png": "/static/media/img3.d4178d20ac9e50b9aaf5.png",
     "static/media/img2.png": "/static/media/img2.409b6ed85f0b1b4f38f5.png",
     "static/media/BetyDecor.jpg": "/static/media/BetyDecor.1ceb02036b1b5587e5a5.jpg",
     "static/media/solilms.png": "/static/media/solilms.1716a00505ca83e787db.png",
     "static/media/currencyExchanger.png": "/static/media/currencyExchanger.00992f770dfce499a85b.png",
     "index.html": "/index.html",
-    "main.d2105232.css.map": "/static/css/main.d2105232.css.map",
-    "main.9cb42eea.js.map": "/static/js/main.9cb42eea.js.map"
+    "main.b6e58edd.css.map": "/static/css/main.b6e58edd.css.map",
+    "main.6ebc2dae.js.map": "/static/js/main.6ebc2dae.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2105232.css",
-    "static/js/main.9cb42eea.js"
+    "static/css/main.b6e58edd.css",
+    "static/js/main.6ebc2dae.js"
   ]
 }

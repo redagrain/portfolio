@@ -33,13 +33,13 @@ export default function Details({ showDetail, showDetails, projectData }) {
           </div>
           <div className="skills">
             <div className="technologies">
-              <h1>Technologies</h1>
+              <h3>Technologies</h3>
               <ul>
                 {projectData[0].technologies.map((technologie) => (<li key={technologie}>{technologie}</li>))}
               </ul>
             </div>
             <div className="tools">
-              <h1>Tools</h1>
+              <h3>Tools</h3>
               <ul>
                 {projectData[0].tools.map((tool) => (<li key={tool}>{tool}</li>))}
               </ul>

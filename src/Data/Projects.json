@@ -24,7 +24,7 @@
       {
         "id": 3, 
         "title": "BetyDecor",
-        "description": "Successfully designed and built a landing page for BetyDecor, an interior design agency, showcasing their services and attracting potential clients.",
+        "description": "I have successfully designed and built this landing page for BetyDecor, an interior design agency.",
         "image": "BetyDecor.jpg",
         "websitelink": "https://www.betydecor.com/",
         "technologies": [
@@ -40,7 +40,7 @@
       {
         "id": 1, 
         "title": "SoliLMS",
-        "description": "SoliLMS is a learning management system for our center, and my task was to create an HR management system.",
+        "description": "SoliLMS is a learning management system developed collaboratively during my studies at SOLICODE Center. The project was divided into different packages, with each team member responsible for a specific package. We employed the SCRUM methodology for efficient collaboration, and my primary responsibility was to develop an HR management system using the Repository Design Pattern and implementing unit tests.",
         "image": "solilms.png",
         "websitelink": null,
         "technologies": [
