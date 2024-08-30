@@ -1,8 +1,6 @@
 .Experiences_Container {
     width: 90%;
     margin: 80px auto;
-    opacity: 0;
-    transform: translateY(70px);
 }
 
 .Experiences_Container .experience {
