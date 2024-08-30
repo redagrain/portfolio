@@ -60,7 +60,7 @@
     font-size: 0.9em;
     margin: 7px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
     .project .project_image img {
         height: 200px;
     }
