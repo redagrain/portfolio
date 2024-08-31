@@ -39,7 +39,7 @@ export default function Projects({showDetail,SetshowDetail}) {
     <div className="Projects" id='Projects'>
       {showDetail && <Details showDetail={showDetail} showDetails={showDetails} projectData={projectData}/>}
       <Title title={'Projects'}/>
-      <div className={projectsElement < scrollPosition+300 ? "Projects_Container animate" : "Projects_Container"}>
+      <div className={projectsElement < scrollPosition+350 ? "Projects_Container animate" : "Projects_Container"}>
         { projectsData.projects.map((project) => (
         <div className="project" key={project.id}>
           <div className="project_image" onClick={() => showDetails([{"image": project.image, "description": project.description, "technologies": project.technologies, "tools": project.tools, "websitelink": project.websitelink }])}>
