@@ -1,14 +1,14 @@
 .Hero{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
     padding: 0 50px;
     height: 100vh;
     margin-top: 100px;
 }
 
 .Hero .hero_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     opacity: 0;
     transform: translateY(70px);
 }
